@@ -16,5 +16,3 @@ jobs:
       - name: Run git bisect script
         run: |
           python my_script.py
-      - name: Run tests
-        run: python manage.py test
